@@ -1,0 +1,36 @@
+{
+  "contacts": [
+    {
+      "id": "1",
+      "name": "John Doe",
+      "email": "john@example.com",
+      "phone": "123-456-7890",
+      "address": "123 Main St",
+      "favourite": true
+    },
+    {
+      "id": "2",
+      "name": "Jane Smith",
+      "email": "jane@example.com",
+      "phone": "987-654-3210",
+      "address": "456 Oak Ave",
+      "favourite": false
+    },
+    {
+      "id": "0a5c",
+      "name": "Mukta Tiwari",
+      "email": "mukta@pinnacle.in",
+      "phone": "9146032440",
+      "address": "Lokseva Nagar",
+      "favourite": false
+    },
+    {
+      "id": "fe88",
+      "name": "Abhishek Upadhye",
+      "email": "abhishek@gmail.com",
+      "phone": "9146032110",
+      "address": "Mumbai",
+      "favourite": true
+    }
+  ]
+}
