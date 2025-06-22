@@ -1,4 +1,4 @@
-export const BASE_URL = 'http://localhost:3001';
+export const BASE_URL = 'http://localhost:3001/api';
 
 export const getContacts = async ({ page = 1, limit = 8, search = '' }) => {
   let url = `${BASE_URL}/contacts?_page=${page}&_limit=${limit}&_sort=name`;
