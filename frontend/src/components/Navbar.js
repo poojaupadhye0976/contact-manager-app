@@ -1,32 +1,29 @@
-import { AppBar, Toolbar, Typography, Button, Box } from '@mui/material';
-import { useContactStore } from '../store/useContactStore';
+import { AppBar, Toolbar, Typography } from '@mui/material';
+import { themeVariables } from '../theme/themeVariables';
 
 const Navbar = () => {
-  const { openModal } = useContactStore();
-
   return (
     <AppBar 
-      position="static" 
-      elevation={0}
+      position="fixed"
       sx={{ 
-        bgcolor: 'background.paper', 
-        color: 'text.primary',
-        borderBottom: '1px solid',
-        borderColor: 'divider',
-        mb: 4
+        zIndex: (theme) => theme.zIndex.drawer + 1,
+        bgcolor: themeVariables.colors.white, 
+        color: themeVariables.colors.textPrimary,
+        boxShadow: themeVariables.shadows.sm
       }}
     >
       <Toolbar>
         <Typography 
-          variant="h5" 
+          variant="h6" 
           component="div" 
           sx={{ 
-            flexGrow: 1, 
-            fontWeight: 700,
-            letterSpacing: 1
+            flexGrow: 1,
+            fontWeight: themeVariables.typography.fontWeight.bold,
+            color: themeVariables.colors.primary,
+            fontSize: themeVariables.typography.fontSize.xl
           }}
         >
-          ConnectHub
+          Contactly
         </Typography>
       </Toolbar>
     </AppBar>
