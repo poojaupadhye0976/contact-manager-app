@@ -1,10 +1,10 @@
-# 📇 Contact Manager - React Assignment
+# Contact Manager - React Assignment
 
 A responsive Contact Manager web application built using **React**, **Zustand**, **React Query**, **Material-UI**, and **json-server**. This app allows users to manage contacts with features like add/edit/delete, search, pagination, and favorites filtering.
 
 ---
 
-## ✨ Features
+## Features
 
 - **Contact List**: View a paginated list of contacts (10 per page)
 - **Search & Filter**: Search contacts by name and filter favorites
@@ -16,7 +16,7 @@ A responsive Contact Manager web application built using **React**, **Zustand**,
 
 ---
 
-## 🧰 Tech Stack
+## Tech Stack
 
 - **React v18**
 - **Zustand v5** – For client-side state management
@@ -26,7 +26,7 @@ A responsive Contact Manager web application built using **React**, **Zustand**,
 - **json-server** – For a mock backend API
 
 ---
-## 🛠️ Setup Instructions
+##  Setup Instructions
 
 ### Prerequisites
 
@@ -38,19 +38,31 @@ A responsive Contact Manager web application built using **React**, **Zustand**,
 
 
 git clone [repository-url]
-cd contact-manager
+
+cd contact-manager/
+
+cd backend/
+
 Install dependencies:
 
-
-npm install
-Start the mock API server (in a separate terminal):
-cd backend/
 npm install json-server
+
+Start the mock API server (in a separate terminal):
+
 node server.js
+
 This will start json-server on http://localhost:3001.
 
 Start the React app:
 
-cd frontend
+cd contact-manager/
+
+cd frontend/
+
+Install dependencies:
+
+npm install
+
 npm start
+
 The application will be running at http://localhost:3000.
