@@ -12,11 +12,7 @@ A responsive Contact Manager web application built using **React**, **Zustand**,
 - **Add/Edit Contacts**: Manage contacts with forms and validation
 - **Favorites Toggle**: Mark/unmark contacts as favorites
 - **Responsive Design**: Mobile and tablet friendly UI
-- **Bonus Features**:
-  - Global loading spinner during API calls
-  - Error handling for API failures
-  - Confirmation dialog for deletions
-  - Toast notifications for successful operations
+
 
 ---
 
@@ -30,7 +26,6 @@ A responsive Contact Manager web application built using **React**, **Zustand**,
 - **json-server** – For a mock backend API
 
 ---
-
 ## 🛠️ Setup Instructions
 
 ### Prerequisites
