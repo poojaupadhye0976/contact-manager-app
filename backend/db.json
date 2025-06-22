@@ -1,36 +1,100 @@
 {
   "contacts": [
     {
-      "id": "1",
-      "name": "John Doe",
-      "email": "john@example.com",
-      "phone": "123-456-7890",
-      "address": "123 Main St",
-      "favourite": true
+      "name": "Aryan Chaple",
+      "email": "aryanc@gmail.com",
+      "phone": "987-654-3218",
+      "address": "Pune",
+      "favourite": true,
+      "id": "5fa7"
     },
     {
-      "id": "2",
-      "name": "Jane Smith",
-      "email": "jane@example.com",
-      "phone": "987-654-3210",
-      "address": "456 Oak Ave",
-      "favourite": false
-    },
-    {
-      "id": "0a5c",
       "name": "Mukta Tiwari",
       "email": "mukta@pinnacle.in",
-      "phone": "9146032440",
-      "address": "Lokseva Nagar",
+      "phone": "987-654-3219",
+      "address": "Pune",
+      "favourite": true,
+      "id": "b034"
+    },
+    {
+      "name": "Shubham ",
+      "email": "shubham@gmail.com",
+      "phone": "9390399393",
+      "address": "Pune",
+      "favourite": true,
+      "id": "722d"
+    },
+    {
+      "name": "Soheb",
+      "email": "soheb@gmail.com",
+      "phone": "8669395614",
+      "address": "NAGPUR",
+      "favourite": false,
+      "id": "56bf"
+    },
+    {
+      "name": "Vibhi",
+      "email": "v@gmail.com",
+      "phone": "9146032000",
+      "address": "456 Oak Ave",
+      "favourite": false,
+      "id": "087a"
+    },
+    {
+      "name": "Aisha",
+      "email": "aisha@gmail.com",
+      "phone": "987-654-3218",
+      "address": "Pune",
+      "favourite": false,
+      "id": "852e"
+    },
+    {
+      "name": "Pooja Upadhye",
+      "email": "pooja@gmail.com",
+      "phone": "9146032449",
+      "address": "Pune",
+      "favourite": false,
+      "id": "a0b0"
+    },
+    {
+      "name": "Mukta Sharma",
+      "email": "mukta@pinnacle.in",
+      "phone": "987-654-3217",
+      "address": "Mumbai",
+      "favourite": false,
+      "id": "c530"
+    },
+    {
+      "name": "Arti",
+      "email": "art@gmail.com",
+      "phone": "9146032446",
+      "address": "Pune",
+      "favourite": true,
+      "id": "c288"
+    },
+    {
+      "id": "1cf9",
+      "name": "Pinnacle",
+      "email": "pin@gmail.com",
+      "phone": "9146032441",
+      "address": "Pune",
       "favourite": false
     },
     {
-      "id": "fe88",
-      "name": "Abhishek Upadhye",
-      "email": "abhishek@gmail.com",
-      "phone": "9146032110",
-      "address": "Mumbai",
-      "favourite": true
+      "name": "Ginny",
+      "email": "ginny@gmail.com",
+      "phone": "9146032442",
+      "address": "Pune",
+      "favourite": false,
+      "id": "Fxx1daU"
+    },
+    {
+      "name": "Georgia",
+      "email": "g@gmail.com",
+      "phone": "9146030000",
+      "address": "NAGPUR",
+      "favourite": false,
+      "id": "ZpOlrRe"
     }
   ]
 }
