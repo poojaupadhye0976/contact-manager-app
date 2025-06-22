@@ -1,29 +1,38 @@
 import { Button } from '@mui/material';
 import { useContactStore } from '../store/useContactStore';
+import { themeVariables } from '../theme/themeVariables';
+import AddIcon from '@mui/icons-material/Add';
 
 const AddContactButton = () => {
-  const { openModal } = useContactStore();
+  const { openModal, setSelectedContactId } = useContactStore();
+
+  const handleClick = () => {
+    setSelectedContactId(null);
+    openModal('add');
+  };
 
   return (
     <Button
       variant="contained"
-      color="primary"
-      onClick={() => openModal('add')}
-      sx={{ 
-        mb: 3,
+      startIcon={<AddIcon />}
+      onClick={handleClick}
+      size="large"
+      sx={{
+        borderRadius: themeVariables.borderRadius.lg,
         px: 4,
         py: 1.5,
-        borderRadius: 2,
         textTransform: 'none',
-        fontSize: '1rem',
-        boxShadow: 'none',
+        fontWeight: themeVariables.typography.fontWeight.medium,
+        fontSize: themeVariables.typography.fontSize.md,
+        backgroundColor: themeVariables.colors.primary,
         '&:hover': {
-          boxShadow: 'none',
-          transform: 'translateY(-1px)'
-        }
+          backgroundColor: themeVariables.colors.primary,
+          opacity: 0.9,
+        },
+        boxShadow: themeVariables.shadows.sm,
       }}
     >
-      Add New Contact
+      Add Contact
     </Button>
   );
 };
